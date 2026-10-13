@@ -10,6 +10,15 @@ This branch is for direct download of installable RC1 artifacts only.
 - Package: `com.vantagepro.app.rc1test`
 - Signing: isolated RC1 test key, not production Play signing
 
+## Android Cloudflare Backend Build
+
+- File: `delivery/VANTAGE_PRO_RC1_ANDROID_CLOUDFLARE.apk`
+- SHA256: `a7471f2ae95d379492b17d72911ecca778256f064dbbf00d46a8f1aa68fa212b`
+- Version: `3.6.1-RC1-TEST` build `907`
+- Package: `com.vantagepro.app.rc1test`
+- Backend: `https://vantage-pro-005a.brentleegacpinetown.workers.dev`
+- Signing: isolated RC1 test key, not production Play signing
+
 ## Windows
 
 The Windows installer is produced by a Windows GitHub Actions runner from the same RC1 source checkpoint because Flutter Windows cannot be compiled on the Linux Codex host.
