@@ -19,6 +19,15 @@ This branch is for direct download of installable RC1 artifacts only.
 - Backend: `https://vantage-pro-005a.brentleegacpinetown.workers.dev`
 - Signing: isolated RC1 test key, not production Play signing
 
+## Android Corrective RC2 Render Backend Build
+
+- File: `delivery/VANTAGE_PRO_CORRECTIVE_RC2_ANDROID_RENDER.apk`
+- SHA256: `9f5782870521b8ec7f074f5eac56b356df2d68d76153282a93bd63309a3d6de2`
+- Version: `3.6.1-RC1-TEST` build `907`
+- Package: `com.vantagepro.app.rc1test`
+- Backend: `https://vantage-pro-beta-api.onrender.com`
+- Signing: isolated RC1 test key, not production Play signing
+
 ## Windows
 
 The Windows installer is produced by a Windows GitHub Actions runner from the same RC1 source checkpoint because Flutter Windows cannot be compiled on the Linux Codex host.
