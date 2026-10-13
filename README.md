@@ -1,0 +1,19 @@
+# VANTAGE PRO RC1 Installers
+
+This branch is for direct download of installable RC1 artifacts only.
+
+## Android
+
+- File: `delivery/VANTAGE_PRO_RC1_ANDROID_TEST.apk`
+- SHA256: `7a63765c4e56d388f86e38ed3c109329b4d92886a61136227325cf3574a4e584`
+- Version: `3.6.1-RC1-TEST` build `907`
+- Package: `com.vantagepro.app.rc1test`
+- Signing: isolated RC1 test key, not production Play signing
+
+## Windows
+
+The Windows installer is produced by a Windows GitHub Actions runner from the same RC1 source checkpoint because Flutter Windows cannot be compiled on the Linux Codex host.
+When the runner succeeds, the file will be added here:
+
+- `delivery/VANTAGE_PRO_MASTER_COMPLETION_RC1_WINDOWS_SETUP.exe`
+
